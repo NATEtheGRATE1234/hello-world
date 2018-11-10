@@ -174,18 +174,18 @@ a:hover {
 
 /*GET INVOLVED*/
 
-.getinvolved {
+.getInvolved {
     padding: 50px 0 80px;
     text-align: center;
     background-color: #5cb85c;
     margin-top: 50px;
 }
 
-.getinvolved h2 {
+.getInvolved h2 {
     color: #fff;
 }
 
-.getinvolved .options {
+.getInvolved .options {
     padding: 30px;
     border: 1px solid #ccc;
     background-color: #fff;
@@ -193,8 +193,10 @@ a:hover {
     margin-top: 30px;
 }
 
-.getinvolved i {
+.getInvolved i {
     width: 50px;
     height: 50px;
     font-size: 40px;
 }
+
+/*myimages*/
