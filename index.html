@@ -2,18 +2,31 @@
 <html>
 
 <head>
- <!--Bootstrap Stuff-->
+ 
+ <!--Bootstrap-->
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
  <!--Font Awesome-->
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+ <!--CSS-->
  <link rel="stylesheet" href="style.css" type="text/css" />
+ <!--Animate CSS-->
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+ 
 </head>
 
 <body>
+ <!--WOW.js-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+ <script>
+  new WOW().init();
+ </script>
+ <!--JQuery-->
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <!--Javascript -->
+ <script type="text/javascript" src="javascript.js"></script>
  <!--Navbar-->
  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
   <a class="navbar-brand" href="#CompanyName">CompanyName</a>
@@ -46,30 +59,35 @@
   </div>
  </nav>
  <!-- End Navbar-->
- 
+
  <hr>
- 
- 
+
+
  <!--Header -->
  <div class="header" id="header">
-  <div class = "slideshow-container">
-   <div class="myImages">
-    <img src = "http://www.carsonelove.com/uploads/2015/10/how-much-does-a-solid-car-wrap-cost.jpg">
+  <div class="slideshow-container">
+   <div class="myimages">
+    <img src="https://images.ecosia.org/OuoZjh9PzUh_EetUG_Joa48RW7k=/0x390/smart/http%3A%2F%2Fwww.famscheepers.com%2Fphotogallery%2Fphoto041%2Fhallo.jpg">
+   </div>
+   <div class="myimages">
+    <img src="http://en.es-static.us/upl/2016/06/sunset-beach-NW-England-Adrian-Strand-lg-e1480508948619.jpg">
+   </div>
+   <div class="myimages">
+    <img src="https://images.ecosia.org/5fcDsZB83uf0ZpQ717iHHSf0v8Q=/0x390/smart/http%3A%2F%2Fwww.morewallpapers.com%2Fwp-content%2Fuploads%2F2016%2F01%2Fbeach-sunrise-picture.jpg">
    </div>
   </div>
  </div>
  <!--End Header-->
- 
- 
+
+
  <hr>
- 
- 
+
+
  <!--About Us -->
  <div id="about" class="about">
   <div class="container">
    <h2>A little bit about us</h2>
    <p>We are a start up company that focuses on delivering packages to peoples' homes.</p>
-   <hr>
    <h3>Our work...</h3>
    <div class="row">
     <div class="col-lg-6 col-sm-6">
@@ -86,11 +104,11 @@
   </div>
  </div>
  <!--End About Us-->
- 
- 
+
+
  <hr>
- 
- 
+
+
  <!-- Our Team-->
  <div id="team" class="team">
   <div class="container">
@@ -130,9 +148,9 @@
   </div>
  </div>
  <!--End Our Team-->
- 
+
  <hr>
- 
+
 
  <!--Contact-->
  <div id="contact" class="contact">
@@ -169,11 +187,11 @@
   </div>
  </div>
  <!--End Contact Us-->
- 
- 
+
+
  <hr>
- 
- 
+
+
  <!--Donate-->
  <div id="donate" class="contact">
   <div class="container">
@@ -203,11 +221,11 @@
   </div>
  </div>
  <!-- End Donate-->
- 
- 
+
+
  <hr>
- 
- 
+
+
  <!--Footer-->
  <div id="footer" class="footer">
   <div class="container">
@@ -236,12 +254,49 @@
       <button class="btn btn-primary" type="button">Subscribe</button>
      </div>
     </div>
+   </div>
   </div>
  </div>
-</div>
  <!--End Footer-->
- 
- 
+
+ <hr>
+
+ <!--Get Involved-->
+ <div id="getinvolved" class="getinvolved">
+  <div class="container">
+   <h2>Get Involved</h2>
+   <div class="row">
+    <div class="col-lg-4 col-md-4 wow flipInY" data-wow-delay="0.4s">
+     <div class="options">
+      <i class="fas fa-globe-americas" aria-hidden="true"></i>
+      <h3>Explore</h3>
+      <p>Explore the world of Lorem Ipsum</p>
+      <button class="btn btn-success">Visit</button>
+     </div>
+    </div>
+    <div class="col-lg-4 col-md-4 wow flipInY" data-wow-delay="0.8s">
+     <div class="options">
+      <i class="fas fa-hands-helping" aria-hidden="true"></i>
+      <h3>Volunteer</h3>
+      <p>Join our community and help out!</p>
+      <button class="btn btn-success">Sign Up</button>
+     </div>
+    </div>
+    <div class="col-lg-4 col-md-4 wow flipInY" data-wow-delay="1.2s">
+     <div class="options">
+      <i class="fas fa-hand-holding-usd" aria-hidden="true"></i>
+      <h3>Give</h3>
+      <p>Donate to our charities</p>
+      <button class="btn btn-success">Donate</button>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!--End Get Involved-->
+
+
+
 </body>
 
 </html>
